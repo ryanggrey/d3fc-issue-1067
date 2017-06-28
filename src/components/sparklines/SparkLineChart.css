@@ -1,26 +1,17 @@
-$black-2: #464646;
-
 .SparkLineChart {
   height: 50%;
-
-  .chart-label,
-  .x-axis-label {
-    display: none;
-  }
-
-  .x-axis {
-    .domain {
-      stroke: transparent;
-    }
-    .tick {
-      path {
-        stroke: rgba($black-2, 0.8);
-      }
-    }
-  }
-
-  line.gridlines {
-      stroke-width: 1px;
-      stroke: $black-2;
-  }
+}
+.SparkLineChart .chart-label,
+.SparkLineChart .x-axis-label {
+  display: none;
+}
+.SparkLineChart .x-axis .domain {
+  stroke: transparent;
+}
+.SparkLineChart .x-axis .tick path {
+  stroke: rgba(70, 70, 70, 0.8);
+}
+.SparkLineChart line.gridlines {
+  stroke-width: 1px;
+  stroke: #464646;
 }
