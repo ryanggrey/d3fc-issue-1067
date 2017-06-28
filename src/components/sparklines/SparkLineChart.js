@@ -1,15 +1,9 @@
 import * as React from 'react';
 import * as d3 from 'd3';
-import * as fc from 'd3fc';
-import { ChartPoint } from '../../models';
-
+import * as fc from '../../lib/d3fc';
 import './SparkLineChart.css';
 
 export class SparkLineChart extends React.Component {
-
-    constructor() {
-        super();
-    }
 
     componentDidMount() {
         this.redraw();

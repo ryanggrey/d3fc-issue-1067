@@ -1,4 +1,3 @@
-import { ChartPoint } from '../models';
 import { utc } from 'moment';
 
 export class DataService {
