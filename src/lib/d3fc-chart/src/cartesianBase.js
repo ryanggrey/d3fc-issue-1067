@@ -92,7 +92,7 @@ export default (d3fcElementType, plotAreaDrawFunction) =>
                   : '';
 
                 container.enter()
-                    .attr('style', 'display: flex; height: 100%; width: 100%; flex-direction: column')
+                    .attr('style', 'display: flex; height: 100%; width: 100%; flex-direction: column; overflow: hidden')
                     .attr('auto-resize', '')
                     .html(`<div class='chart-label'
                                 style='height: ${chartLabel ? 2 : 0}em; line-height: 2em; text-align: center; ${marginForOrient(yOrientValue)}'>
